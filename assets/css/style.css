@@ -2,7 +2,7 @@
 
 @import url(./reset.css);
 
-/* Background da página original mudado para darkslategray */
+/* Cor de fundo da página alterado para darkslategray */
 body {
     background-color: rgb(31, 58, 58);
   }
@@ -94,7 +94,7 @@ body {
     font-weight: bolder;
   }
 
-  /* */
+  /* Estilização da margem da seção de módulos */
   section {
     margin: 100px auto;
   }
