@@ -35,7 +35,7 @@ body {
     text-align: center;
   }
   
-  /* Configurações do logo com aplicação de 4% de gradiente */
+  /* Configurações do logo com aplicação de 4% de gradiente da cor de fundo */
   .banner .logo {
     background-color: rgba(0, 0, 0, .04);
     height: 260px;
@@ -46,6 +46,7 @@ body {
     margin-bottom: 16px;
   }
 
+  /* Criação do container para o logo */
   .banner .logo img {
     margin: auto;
     width: 100%;
@@ -53,7 +54,7 @@ body {
     object-fit: contain;
   }
 
-  /* Estilizando o Título Principal do banner */
+  /* Estilização o Título Principal do banner */
   .banner h1 {
     font-size: 40px;
     font-weight: 900;
@@ -65,13 +66,13 @@ body {
     -webkit-background-clip: text;
   }
 
-  /* Configurações do texto do banner */
+  /* Estilizações do texto do banner */
   .banner p {
     font-size: 20px;
     margin: 16px 0 24px;
   }
    
-  /* Configurações da tag button e texto "QUERO ME INSCREVER" */
+  /* Estilizações da tag button e texto "QUERO ME INSCREVER" */
   .banner .banner-content button {
     color: #31A8DD;
     font-size: 16px;
@@ -85,6 +86,7 @@ body {
     border-radius: 30px;
   }
 
+  /* Estilização do link para o formulário de cadastro */
   .banner .banner-content button > a {
     font-size: 20px;
     color: #31A8DD;
@@ -92,31 +94,30 @@ body {
     font-weight: bolder;
   }
 
+  /* */
   section {
     margin: 100px auto;
   }
 
-  #course-content {
-    width: 800px;
-    text-align: center;
-  }
-
-  /* Configurações do texto do título secundário */
+  /* Estilização do texto explicativo sobre os módulos */
   p {
     font-size: 16px;
     color: #FFFFFF;
     text-align: center;
   }
-     
+    
+  /* Ajustes na seção lista de cursos */
   #course-content {
     width: 800px;
     text-align: center;
   }
   
+  /* Ajuste do container para lista de módulos */
   #course-content .modules-list {
     margin: 24px 0;
   }
   
+  /* Estilização da lista de módulos */
   #course-content .modules-list .module {
     color: white;
     width: 530px;
@@ -128,10 +129,12 @@ body {
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
   }
   
+  /* Cor da fonte da lista de módulos */
   #course-content .modules-list .module span {
     color: #33A8DB;
   }
 
+  /* Colocação e estilização do container com imagem 'woman-code' */
   #transform-world {
     height: 560px;
     background-size: cover;
@@ -142,6 +145,7 @@ body {
     padding: 200px;
   }
 
+  /* Estlização do texto 'transforme o mundo com a gente' */
   #transform-world p {
     font-weight: 900;
     font-size: 40px;
@@ -150,11 +154,13 @@ body {
     text-shadow: 3px 2px #33A8DB;
   }
 
+  /* Centralização e tamanho da imagem 'Homem lendo depoimentos em um tablet' */
   #professional-challenges {
     text-align: center;
     width: 800px;
   }  
     
+  /* Posicionamento da margem da imagem 'Homem lendo depoimentos em um tablet' em relação ao texto */
   #professional-challenges img {
     margin: 32px 0;
   }
