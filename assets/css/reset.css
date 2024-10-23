@@ -1,0 +1,12 @@
+/* Conteúdo copiado do arquivo reset.css da projeto trilha-css-desafio-01-final */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Acrescentado os parâmetros margin: 0; padding: 0; e font-size: 0;*/
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
